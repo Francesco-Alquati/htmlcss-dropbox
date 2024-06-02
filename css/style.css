@@ -10,6 +10,7 @@ footer{
     background-color: black;
     color: white;
 }
+
 /* classi di layout */
 /* container */
 .container{
@@ -19,13 +20,12 @@ footer{
 .container-jumbo{
     max-width: 850px;
     margin: 0 auto;
-    height: 450px;
+    height: 480px;
 }
 .container-main{
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 150px;
-    background-color: blue;
+    margin-top: 100px;
 }
 .container-company{
     background-color: rgb(37, 168, 23);
@@ -35,7 +35,6 @@ footer{
 .container-small-company{
     max-width: 700px;
     margin: 0 auto;
-    background-color: blue;
 }
 .container-footer{
     max-width: 850px;
@@ -67,24 +66,21 @@ footer{
 button{
     border: none;
     background-color: rgb(255, 255, 255);
-    margin: 0px 5px;
-    padding: 8px 13px;
     cursor: pointer;
 }
 h1{
-    padding: 20px;
     font-size: 60px;
-    margin-top: 40px;
+    margin: 40px 0px;
 }
 h2{
-    font-size: 30px;
+    font-size: 28px;
 }
-a{
-    text-decoration: none;
-    color: rgb(57, 57, 57);
+h3{
+    font-size: 20px;
+    margin: 15px 0px;
 }
-.table-title{
-    text-align: center;
+h4{
+    margin: 20px 0px;
 }
 ul{
     list-style: none;
@@ -92,9 +88,24 @@ ul{
 hr{
     color: grey;
     width: 20%;
+    margin: 20px 0px;
 }
 .img-main{
     width: 100%;
+}
+.img-company{
+    max-width:100%;
+    width: 120px;
+}
+#designit{
+    max-width: 100%;
+    width: 200px;
+}
+.subscription-table{
+    border: 1px solid rgba(107, 107, 107, 0.381);
+    padding: 15px;
+    font-size: 11px;
+    border-collapse: collapse;
 }
 /* content  */
 .content-header{
@@ -102,10 +113,10 @@ hr{
    padding: 15px;
 }
 .content-jumbo{
-  background-color: red;
+    font-size: 13px;
 }
 .content-main{
-    background-color: red;
+    padding: 20px;
 }
 .content-company{
     background-color: rgb(248, 246, 250);
@@ -114,8 +125,26 @@ hr{
 }
 /* selettori composti  */
 .content-header a{
-    color: rgb(57, 57, 57);
     margin: 0px 25px;
+}
+header button{
+    margin: 0px 5px;
+    padding: 8px 13px;
+}
+.content-header a,.content-jumbo a{
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+.subscription-table li,
+.subscription-table p,
+.subscription-table button,
+.subscription-table span{
+    margin: 10px 0px;
+}
+.subscription-table button{
+    padding: 8px;
+    text-align: center;
+    font-size: 10px;
 }
 /* background e colori  */
 .bg-lightblue{
@@ -127,36 +156,108 @@ hr{
 .white{
     color: white;
 }
+.grey{
+    color: rgb(118, 118, 118);
+}
+
 /* padding  */
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
 .p-20-28{
     padding: 20px 28px;
 }
-.p-20{
-    padding: 20px;
+.p-30{
+    padding: 30px;
 }
 /* margin  */
 .my-10{
     margin: 10px 0px;
 }
-.mt-50{
-    margin-top: 50px;
+.my-25{
+    margin: 25px 0px;
+}
+.my-40{
+    margin: 40px 0px;
+}
+.my-60{
+    margin: 60px 0px;
+}
+.my-70{
+    margin: 70px 0px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+/* position */
+.position-absolute{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.position-relative{
+    position: relative;
 }
 /* flex  */
 .flex-item-center{
     display: flex;
     align-items: center;
 }
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
 .flex-end{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+.space-betwen{
+    display: flex;
+    justify-content: space-between;
+}
 /* bordo */
 .border{
-    border: 1px solid rgba(0, 0, 0, 0.381);
+    border: 1px solid rgba(107, 107, 107, 0.381);
 }
+/* altezza  */
 .h-50{
     height: calc((100vw /3)/2);
+    
+}
+.max-height{
+    max-height:  calc((100vw /3));
+}
+.min-height{
+    min-height: 630px;
+}
+/* larghezza */
+.full-width{
+    width: 100%;
+}
+/* testi */
+.text-center{
+    text-align: center;
+}
+.fs-11{
+    font-size: 11px;
+}
+.lh-35{
+    line-height: 35px;
 }
 
 
