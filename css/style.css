@@ -66,6 +66,13 @@ footer{
 .col-100{
     width: 100%;
 }
+/* display */
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
 /* classi di style  */
 /* genereali  */
 button{
@@ -179,8 +186,13 @@ header button:first-of-type:hover{
 }
 i.fa-2xl:hover{
     font-size: 35px;
-    
     cursor: pointer;
+}
+.content-hover:hover .d-block{
+    display: none;
+}
+.content-hover:hover .d-none{
+    display: block;
 }
 /* background e colori  */
 .bg-lightblue{
