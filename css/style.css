@@ -161,6 +161,9 @@ footer li{
     font-size: 11px;
     margin: 10px 0px;
 }
+.border-hover:hover{
+    border: 15px solid rgba(171, 190, 160, 0.279);
+}
 /* background e colori  */
 .bg-lightblue{
     background-color: #a1c9f7d5;
@@ -169,7 +172,7 @@ footer li{
     background-color: rgb(50, 108, 255);
 }
 .bg-green{
-    background-color: #93c46c;
+    background-color: #23af62;
 }
 .bg-maroon{
     background-color:rgb(91, 0, 23);
