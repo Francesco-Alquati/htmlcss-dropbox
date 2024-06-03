@@ -110,6 +110,9 @@ hr{
     width: 120px;
     filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(70deg) brightness(105%) contrast(104%);
 }
+ul.drop-menu{
+    display:flex;
+}
 #designit{
     max-width: 100%;
     width: 200px;
@@ -184,6 +187,9 @@ button.border:hover{
 header button:first-of-type:hover{
     color: blue;
 }
+header a:hover{
+    color: blue;
+}
 i.fa-2xl:hover{
     font-size: 35px;
     cursor: pointer;
@@ -234,6 +240,9 @@ i.fa-2xl:hover{
 .maroon{
     color: rgb(91, 0, 23);
 }
+.red{
+    color: red;
+}
 .w-alpha-05{
     color: rgba(255, 255, 255, 0.500);
 }
@@ -278,6 +287,12 @@ i.fa-2xl:hover{
 }
 .mr-20{
     margin-right: 20px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-50{
+    margin-left: 50px;
 }
 /* position */
 .position-absolute{
@@ -340,5 +355,12 @@ i.fa-2xl:hover{
 .lh-35{
     line-height: 35px;
 }
-
+.fixed-drop-menu{
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+}
 
