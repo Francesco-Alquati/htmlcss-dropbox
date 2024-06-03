@@ -6,6 +6,9 @@
 body{
     font-family: Arial, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 footer{
     color: white;
     background-color: black;
@@ -173,6 +176,11 @@ button.border:hover{
 }
 header button:first-of-type:hover{
     color: blue;
+}
+i.fa-2xl:hover{
+    font-size: 35px;
+    
+    cursor: pointer;
 }
 /* background e colori  */
 .bg-lightblue{
