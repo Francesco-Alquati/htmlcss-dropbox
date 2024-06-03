@@ -164,6 +164,16 @@ footer li{
 .border-hover:hover{
     border: 15px solid rgba(171, 190, 160, 0.279);
 }
+button.bg-blue:hover{
+    background-color: rgb(0, 0, 255);
+}
+button.border:hover{
+   background-color: rgb(240, 240, 240);
+   color: blue;
+}
+header button:first-of-type:hover{
+    color: blue;
+}
 /* background e colori  */
 .bg-lightblue{
     background-color: #a1c9f7d5;
